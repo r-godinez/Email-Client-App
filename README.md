@@ -24,6 +24,8 @@ git clone https://github.com/r-godinez/Email-Client-App.git
 cd Email-Client-App
 
 pip install tk
+or
+source myenv/bin/activate
 
 python email_app.py
 
