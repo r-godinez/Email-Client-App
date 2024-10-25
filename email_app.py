@@ -48,8 +48,8 @@ def open_file_dialog():
 
 def send_email_gui():
     sender_email = sender_entry.get()
-    # jicg rsgy heug uxub
-    sender_password = password_entry.get()
+    # sender_password = "abcd efgh ijkl mnop"  # Use your app-specific password here
+    sender_password = password_entry.get()     # Enter on GUI
     to_emails = to_entry.get()
     cc_emails = cc_entry.get()
     bcc_emails = bcc_entry.get()
